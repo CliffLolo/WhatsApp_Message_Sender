@@ -24,3 +24,8 @@ In order to run the python script, your system must have the following programs/
 
 
 https://medium.com/@insecurecoders/how-to-automate-whatsapp-to-send-personalized-messages-to-100-contacts-using-python-e7cac37dd7
+
+
+
+
+http://labs.brotherli.ch/vcfconvert/
