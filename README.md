@@ -10,8 +10,10 @@ In order to run this script, you’ll need to have the following packages instal
 * Google Chrome
 * Pandas
 * Xlrd
-* Selenium
-You will also need an excel file that contains 3 columns- the name of your contact, their phone number and the message we want to send to all of them
+* Selenium<br>
+You will also need an excel file that contains 3 columns- the name of your contact, their phone number and the message we want to send to all of them<br>
+
+<img src = "Screenshots/excel.png">
 
 
 ## Approach
