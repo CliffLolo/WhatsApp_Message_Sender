@@ -40,8 +40,11 @@ You will also need an excel file that contains 3 columns- the name of your conta
   ```
 
 ## Approach
-* User scans web QR code to log in into the WhatsApp web application.
-* The script reads a customized message from excel sheet.
+* Import Packages<br>
+<img src = "Screenshots/1.png">
+* Store our session details so that we do not have to be logging in to WhatsApp web every time<br>
+<img src = "Screenshots/2.png">
+
 * The script reads rows one by one and searches that contact number in the web search box if the contact number found on WhatsApp then it will send a configured message otherwise It reads next row. 
 * Loop execute until and unless all rows complete.
 
