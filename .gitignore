@@ -1,5 +1,5 @@
 *.log
 user-data*
-*.ipynb_checkpoints
+.ipynb_checkpoints
 *.xlsx
 *.ipynb
