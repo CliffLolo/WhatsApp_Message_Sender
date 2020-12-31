@@ -41,12 +41,16 @@ You will also need an excel file that contains 3 columns- the name of your conta
 
 ## Approach
 * Import Packages<br>
-<img src = "Screenshots/1.png">
-* Store our session details so that we do not have to be logging in to WhatsApp web every time<br>
-<img src = "Screenshots/2.png">
+<img src = "Screenshots/1.png"><br>
+* Store your session details so that you do not have to be logging in to WhatsApp web every time<br>
+<img src = "Screenshots/2.png"><br>
 
-* The script reads rows one by one and searches that contact number in the web search box if the contact number found on WhatsApp then it will send a configured message otherwise It reads next row. 
-* Loop execute until and unless all rows complete.
+* Initialize chrome and then specify the path to the location where the chromdriver is located. Also, add the options as you initialize chrome. You can also add a maximum wait time for an element to load on a webpage <br>
+<img src = "Screenshots/3.png"><br>
+ 
+* Once chrome is initialized we can now open the WhatsApp web URL<br>
+<img src = "Screenshots/4.png"><br>
+
 
 
 https://medium.com/@insecurecoders/how-to-automate-whatsapp-to-send-personalized-messages-to-100-contacts-using-python-e7cac37dd7
