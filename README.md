@@ -1,19 +1,17 @@
-# WhatsApp_Message_Sender
+# Python Automated WhatsApp Messages Sender
 
-
-# Python Automated Bulk WhatsApp Messages
-
-It is a python script that sends WhatsApp message automatically from WhatsApp web application. It can be configured to send advertising messages to customers. It read data from an excel sheet and send a configured message to people.
+This script sends WhatsApp messages automatically from WhatsApp web application to contacts. The name of the contact, their phone number and the message you want to send to all of them at once are saved in an excel file.
 
 ## Prerequisites
 
-In order to run the python script, your system must have the following programs/packages installed and the contact number should be saved in your phone (You can use bulk contact number saving procedure of email). There is a way without saving the contact number but has the limitation to send the attachment.
-* Python 3.8: Download it from https://www.python.org/downloads
-* Selenium Web Driver: Either you can use repo driver else you can download it https://chromedriver.chromium.org/downloads
-* Google Chrome : Download it from https://www.google.com/chrome
-* Pandas : Run in command prompt **pip install pandas**
-* Xlrd : Run in command prompt **pip install xlrd**
-* Selenium: Run in command prompt **pip install selenium** 
+In order to run this script, you’ll need to have the following packages installed on your computer. 
+* Python 3.8
+* Selenium Web Driver
+* Google Chrome
+* Pandas
+* Xlrd
+* Selenium
+You will also need an excel file that contains 3 columns- the name of your contact, their phone number and the message we want to send to all of them
 
 
 ## Approach
