@@ -50,12 +50,17 @@ You will also need an excel file that contains 3 columns- the name of your conta
  
 * Once chrome is initialized we can now open the WhatsApp web URL<br>
 <img src = "Screenshots/4.png"><br>
+It will open a WhatsApp web interface which automatically asks you to scan the QR code
 
+* Now, read the data from the excel file<br>
+<img src = "Screenshots/5.png"><br>
 
+* This loop each row and then searches for the contact number in the search box. If the number is found on WhatsApp, it will send a customized message to them otherwise it will read the next row<br>
+<img src = "Screenshots/6.png"><br>
 
-https://medium.com/@insecurecoders/how-to-automate-whatsapp-to-send-personalized-messages-to-100-contacts-using-python-e7cac37dd7
+## Resources used
 
-
-
-
-http://labs.brotherli.ch/vcfconvert/
+- [Automate Whatsapp Web Using Python](https://medium.com/@insecurecoders/how-to-automate-whatsapp-to-send-personalized-messages-to-100-contacts-using-python-e7cac37dd7
+)
+- [Python Bulk WhatsApp Messages](https://inforkgodara.blogspot.com/2020/07/bulk-whatsapp-message-through-python.html)
+- [ChromeDriver - WebDriver for Chrome](https://sites.google.com/a/chromium.org/chromedriver/getting-started)
